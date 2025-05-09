@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="NopCommerceWeb" parallel="none">
+  <test name="Run on Chrome">
+    <classes>
+      <class name="jenkins.TestClass_01_Login" />
+   </classes>
+ </test>
+</suite>
