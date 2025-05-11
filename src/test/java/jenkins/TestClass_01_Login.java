@@ -19,9 +19,22 @@ public class TestClass_01_Login {
 		driver.get("https://demo.nopcommerce.com/");
 	}
 	@Test
-	public void runForEachTest() {
+	public void TC_01_runForEachTest() {
 		System.out.println("sdvghfjdks");
 	}
+	@Test
+	public void TC_02_runForEachTest() {
+		System.out.println("sdvghfjdks");
+	}
+	@Test
+	public void TC_03_runForEachTest() {
+		System.out.println("sdvghfjdks");
+	}
+	@Test
+	public void TC_04_runForEachTest() {
+		System.out.println("sdvghfjdks");
+	}
+	
 	@AfterClass 
 	public void afterClass() {
 	}	
